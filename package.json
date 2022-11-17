@@ -1,0 +1,20 @@
+{
+  "name": "newsletter-signup",
+  "version": "1.0.0",
+  "description": "Newsletter Signup website",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gurjot Gill",
+  "license": "ISC",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.75",
+    "async": "^3.2.3",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "request": "^2.88.2"
+  }
+}
